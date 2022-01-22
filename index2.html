@@ -1,0 +1,149 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>WEBD Task 2</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="My second WEBD task" />
+    <style>
+        body{
+            background-image: url("image\ 4.jpg");
+            background-size: cover;
+            height: 815.91px;
+        }
+        div.card{
+            background-color: rgb(247, 199, 240);
+        }
+        img{
+            border: 3px double
+        }
+      
+        .card {
+          width: 80%;
+          border-radius: 30px;
+          right:10%;
+          margin-left: auto;
+          margin-right: auto;
+          position: absolute;
+        }
+
+        h1 {
+				color: rgb(101, 8, 119);text-align: center;
+                font-family: 'Fira Sans', sans-serif;
+        }
+                @font-face{
+        font-family: 'Fira Sans', sans-serif;
+        src:url(https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap)
+			}
+            img{
+                border-radius:50%;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                width: 20%
+            }
+      hr{
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          
+      }
+      
+      
+      h3 {text-align: center;
+                color:rgb(142, 15, 173)}
+      ul {
+        text-align: center;
+        list-style-position: inside;
+         }
+      table td {border-spacing:10px;}
+      td{text-align:center;}
+      
+      table.myskills,th{
+        border: 1px solid black;
+        border-collapse:collapse;
+      }
+      td.myskills2{
+        border: 1px solid black;
+      }
+      td.message{
+          text-align:left;
+          
+
+      }
+      
+      table.contact{
+          margin-left: auto;
+          border-spacing: 100px 0px;
+          border-collapse: seperate;
+
+      }
+       
+      
+        
+    </style>
+  </head>
+
+  <body>
+      <div class="card">
+     <h1>Ayashika Gupta</h1>
+          <img src="image 6.png" alt="Profile Pic"><br>
+
+  <table rules="cols" align="center">
+      <tr>
+        <td><b>Email:</b>iit2021073@iiita.ac.in</td>
+         <td><b>Phone:</b>1234567890</td>
+        <td><b>My Github URL:</b><a href="https://github.com/Ayashika">https://github.com/Ayashika</a>
+  </table><hr>
+  <h3><b>Education</b></h3>
+    <ul>
+			<li>Passed high school from Burnpur Riverside School, West Bengal</li><br>
+			<li>Currently pursuing B.Tech in Information Technology from Indian Institute of Information Technology,Allahabad</li>
+	</ul>
+     <hr> 
+		<h3>Skills</h3>
+    <table align="center" class="myskills">
+        <tr class="myskills2">
+          <th>Language</th>
+          <th>Skill</th>
+        </tr>
+			  <tr>
+                <td class="myskills2"><b>HTML</b></td>
+				<td class="myskills2">★★★★☆</td>
+			  </tr>
+			<tr>
+                <td class="myskills2"><b>CSS</b></td>
+				<td class="myskills2">★★☆☆☆</td>
+			</tr>
+			<tr>
+                <td class="myskills2"><b>Javascript</b></td>
+				<td class="myskills2">★☆☆☆☆</td>
+		  </tr>
+	</table>
+      <hr>
+      <h3>Contact Me</h3>
+      <div class="form-center">
+          <table class="contact me">
+              <tr> 
+                  <td>
+                  <form class="form-inline" action="/action_page.php">
+                      <label for="name">Your Name:</label>
+                      <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                  </td>
+                  <td rowspan="2" class="message">
+                    <label>Your Message:</label>
+                    <textarea name="name" placeholder="Enter your message"></textarea> 
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    <label for="email">Your email id:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email id"><br><br>
+                  </td>
+                  <td>
+                      &nbsp;
+                  </td>
+              </tr>
+          </table>
+      </div>
+  </body> 
+</html>
